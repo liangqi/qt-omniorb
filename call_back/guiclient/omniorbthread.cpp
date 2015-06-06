@@ -145,6 +145,4 @@ void OmniORBThread::run()
     cerr << "  line: " << fe.line() << endl;
     cerr << "  mesg: " << fe.errmsg() << endl;
   }
-
-  emit finished();
 }
